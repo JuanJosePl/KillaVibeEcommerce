@@ -1,0 +1,15 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectángulo de fondo -->
+  <rect x="18" y="19" width="144" height="143" rx="24" fill="white" stroke="#6B7280" stroke-width="6"/>
+
+  <!-- Icono de conexión abstracta -->
+  <path d="M90 60C97.732 60 104 53.732 104 46C104 38.268 97.732 32 90 32C82.268 32 76 38.268 76 46C76 53.732 82.268 60 90 60Z" fill="#E5E7EB" stroke="#6B7280" stroke-width="6"/>
+  <line x1="90" y1="60" x2="90" y2="120" stroke="#6B7280" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="90" cy="132" r="12" fill="#E5E7EB" stroke="#6B7280" stroke-width="6"/>
+
+  <!-- Íconos secundarios -->
+  <circle cx="60" cy="100" r="10" fill="#E5E7EB" stroke="#6B7280" stroke-width="6"/>
+  <circle cx="120" cy="100" r="10" fill="#E5E7EB" stroke="#6B7280" stroke-width="6"/>
+  <line x1="70" y1="100" x2="80" y2="100" stroke="#6B7280" stroke-width="6" stroke-linecap="round"/>
+  <line x1="100" y1="100" x2="110" y2="100" stroke="#6B7280" stroke-width="6" stroke-linecap="round"/>
+</svg>
