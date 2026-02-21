@@ -16,6 +16,7 @@ Homestead.yaml
 npm-debug.log
 package-lock.json
 /public/hot
+.history/
 /public/storage
 /public/vendor
 /lang/vendor
