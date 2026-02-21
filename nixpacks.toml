@@ -6,4 +6,4 @@ cmds = [
 [phases.build]
 cmds = ["npm run build"]
 [start]
-cmd = "mkdir -p /tmp/views && mkdir -p /tmp/cache && php artisan config:clear && php artisan serve --host=0.0.0.0 --port=$PORT"
+cmd = "mkdir -p /tmp/storage/framework/sessions && mkdir -p /tmp/storage/framework/views && mkdir -p /tmp/storage/framework/cache && mkdir -p /tmp/storage/logs && php artisan config:clear && php artisan serve --host=0.0.0.0 --port=$PORT"
