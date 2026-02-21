@@ -1,7 +1,11 @@
 [phases.install]
 cmds = [
-  "composer install --optimize-autoloader --no-scripts --no-interaction --ignore-platform-req=ext-gd --ignore-platform-req=ext-exif"
+  "composer install --optimize-autoloader --no-scripts --no-interaction --ignore-platform-req=ext-gd --ignore-platform-req=ext-exif",
+  "npm install"
 ]
+
+[phases.build]
+cmds = ["npm run build"]
 
 [start]
 cmd = "php artisan serve --host=0.0.0.0 --port=$PORT"
